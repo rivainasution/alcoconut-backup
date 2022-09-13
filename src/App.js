@@ -10,8 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/add" element={<Content/>} />
-        <Route path="/edit" element={<Product/>} />
+        <Route path="/alcoconut-backup" element={<Home/>} />
       </Routes>
     </BrowserRouter>
   );
